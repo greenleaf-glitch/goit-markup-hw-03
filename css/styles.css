@@ -84,10 +84,10 @@ body {
 
 .visually-hidden {
   position: absolute;
-  left: -9999px;
-  width: 1px;
   height: 1px;
+  width: 1px;
   overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
 }
 
 .header-two {
@@ -166,10 +166,6 @@ body {
   padding-left: 0;
   gap: 40px;
 }
-
-/* .menu-item:not(:last-child) {
-  margin-right: 40px;
-} */
 
 .link:hover,
 .link:focus {
@@ -488,6 +484,7 @@ body {
   padding-left: 16px;
   padding-right: 16px;
   border: 1px solid
-    var(--portfolio-menu-button-passive-color);
+    var(--portfolio-menu-button-border-color);
+  /* border: 1px solid #e7e9fc; */
   border-top: none;
 }
