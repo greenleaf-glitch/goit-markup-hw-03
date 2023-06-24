@@ -82,10 +82,12 @@ body {
   padding-right: 15px;
 }
 
-.header-hidden {
-  font-size: 0;
-  /* display: none; */
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 .header-two {
