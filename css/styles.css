@@ -83,7 +83,7 @@ body {
 }
 
 .header-hidden {
-  /* font-size: 0; */
+  font-size: 0;
   /* display: none; */
   visibility: hidden;
 }
@@ -205,16 +205,15 @@ body {
 /* Section  Hero */
 
 .hero-section {
-  padding-bottom: 0;
   padding-top: 188px;
   padding-bottom: 188px;
+  height: 600px;
+  background-color: var(--secondary-color);
 }
 
 .hero-wrapper {
   display: block;
   width: 1440px;
-  height: 600px;
-  background-color: var(--secondary-color);
 
   padding-left: 472px;
   padding-right: 472px;
@@ -449,12 +448,13 @@ body {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+  margin-top: 0;
 }
 
-.poftfolio-button-container {
+/* .poftfolio-button-container {
   padding-top: 96px;
   padding-bottom: 72px;
-}
+} */
 
 .portfolio-section {
   width: 1440px;
